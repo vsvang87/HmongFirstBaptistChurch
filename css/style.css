@@ -1,0 +1,211 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: calc(0.5vw + 1rem);
+}
+
+.container {
+  width: min(90%, 100rem);
+  margin-inline: auto;
+}
+
+/*------------------Header------------------------*/
+.header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .navbar .logo {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #005792;
+}
+.header .navbar .nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.header .navbar .nav-links li {
+  list-style-type: none;
+  padding: 1rem 2rem;
+}
+.header .navbar .nav-links li a {
+  text-decoration: none;
+  color: #005792;
+}
+.header .navbar .nav-links li a:hover {
+  border-bottom: 2px solid #005792;
+  padding-bottom: 0.5rem;
+}
+.header .navbar .nav-links .give-btn {
+  text-decoration: none;
+  background: #dfba5c;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 50px 50px;
+  margin-left: 1rem;
+}
+
+/*--------------------------Main--------------------------*/
+.main {
+  padding: 1rem 0;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.main .main-content {
+  position: relative;
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: #fff;
+  width: 50%;
+}
+.main:before {
+  content: "";
+  position: absolute;
+  background-image: url(/images/img2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  filter: brightness(60%);
+}
+
+/*-------------------------Service Container-----------------*/
+.service-container {
+  min-height: 30vh;
+}
+.service-container .two-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+}
+.service-container .two-container .col {
+  width: 100%;
+  height: 30vh;
+  color: #222831;
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service-container .two-container .col .center {
+  text-align: center;
+}
+.service-container .two-container .col .btn {
+  text-decoration: none;
+  background: #dfba5c;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 50px 50px;
+  transition: 0.2s ease-in-out;
+}
+.service-container .two-container .col .btn:hover {
+  background: #ececec;
+}
+.service-container .two-container .service {
+  background: #005792;
+  color: #fff;
+}
+
+/*-------------------------Bible Study--------------------*/
+.bible-study-container {
+  background: #ececec;
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bible-study-container .two-columns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #222831;
+  text-align: center;
+}
+.bible-study-container .two-columns .col {
+  width: 50%;
+}
+.bible-study-container .two-columns .col .row {
+  border-bottom: 2px solid #222831;
+  width: 100%;
+}
+.bible-study-container .two-columns .zoom a > i {
+  color: #005792;
+  font-size: 6rem;
+}
+
+/*------------------------Location--------------------------*/
+.location-container {
+  min-height: 70vh;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location-container .location-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.location-container .location-content .col {
+  width: 50%;
+}
+.location-container .location-content .map iframe {
+  width: 100%;
+}
+.location-container .location-content .info h4,
+.location-container .location-content .info p {
+  padding: 0.2rem 0;
+  margin: 0.2rem 0;
+}
+
+/*----------------------------Social Content-----------------*/
+.social-media-container {
+  min-height: 35vh;
+  padding: 1rem 0;
+  background: #dfba5c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-media-container .three-columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  color: #fff;
+  position: relative;
+}
+.social-media-container .three-columns .col {
+  height: 300px;
+  width: 33%;
+}
+.social-media-container .three-columns .col .btn {
+  text-decoration: none;
+  color: #fff;
+  background: #005792;
+  border-radius: 50px 50px;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  bottom: 0.5rem;
+}
+
+/*---------------------------Footer--------------------------*/
+.footer {
+  min-height: 20vh;
+  padding: 1rem 0;
+  background: #005792;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
